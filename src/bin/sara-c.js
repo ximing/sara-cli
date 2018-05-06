@@ -6,7 +6,6 @@ let inquirer = require("inquirer");
 let path = require("path");
 let fs = require("fs");
 let fse = require("fs-extra");
-let request = require("request");
 
 let log = require("../log");
 let utils = require("../utils");
