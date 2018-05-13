@@ -3,16 +3,16 @@
  * 控制台输出
  */
 
-let chalk = require('chalk');
+let chalk = require("chalk");
 
 module.exports = {
-    error(msg){
+    error(msg) {
         console.log(chalk.red(msg));
     },
-    success(msg){
+    success(msg) {
         console.log(chalk.green(msg));
     },
-    tips(msg=''){
+    tips(msg = "") {
         console.log(msg);
     }
 };
